@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SIGN UP</title>
+<link rel="stylesheet" type="text/css" href="css1.css">
+</head>
+<body>
+<form>
+	<h1>SIGN UP</h1>
+	<hr>
+	<dl class="info_item_name">
+		<dt class="info_item_t"><span class="item_tips">*</span>Name</dt>
+		<dd class="info_item_c"><input type="text" placeholder="Input your name."></dd> 
+	</dl>
+	<dl class="info_item_password">
+		<dt class="info_item_t"><span class="item_tips">*</span>Password</dt>
+		<dd class="info_item_c"><input type="password" placeholder="Input your password."></dd>
+	</dl>
+	<dl class="info_item_confirm_password">
+		<dt class="info_item_t"><span class="item_tips">*</span>Confirm Password</dt>
+		<dd class="info_item_c"><input type="password" placeholder="Confirm your password."></dd>
+	</dl>
+    <dl class="info_item_gender">
+		<dt class="info_item_t"><span class="item_tips">*</span>Gender</dt>
+	    <dd class="info_item_c"><input type="radio" name="gender">Male<input type="radio" name="gender">Female</dd>
+	</dl>
+	<dl class="info_item_hobby">
+		<dt class="info_item_t"><span class="item_tips">*</span>Hobby</dt>
+		<dd class="info_item_c"><input type="checkbox" name="hobby">Music<input type="checkbox" name="hobby">Sports<input type="checkbox" name="hobby">Painting</dd>
+	</dl>
+	<dl class="info_item_college">
+		<dt class="info_item_t"><span class="item_tips">*</span>College</dt>
+		<dd class="info_item_c">
+			<select>
+				<option></option>
+				<option>Computer</option>
+				<option>Medical</option>
+				<option>Education</option>
+			</select>
+		</dd>
+	</dl>
+	<dl class="info_item_class"><dt class="info_item_t"><span class="item_tips">*</span>Class</dt>
+		<dd class="info_item_c"><input list="classnub">
+			<datalist id="classnub">
+			<option value="Computer151"></option>
+			<option value="Computer152"></option>
+			<option value="Computer153"></option>
+			<option value="Medical151"></option>
+			<option value="Medical152"></option>
+			<option value="Medical153"></option>
+			<option value="Education151"></option>
+			<option value="Education152"></option>
+			<option value="Education153"></option>
+			</datalist>
+		</dd>
+	</dl>
+	<dl class="info_item_birthday">
+		<dt class="info_item_t"><span class="item_tips">*</span>Birthday</dt>
+		<dd class="info_item_c"><input type="date"></dd>
+	</dl>
+	<dl class="info_item_grade">
+		<dt class="info_item_t"><span class="item_tips">*</span>Grade</dt>
+		<dd class="info_item_c"><input type="range" max="4" min="0">
+	</dl>
+	<dl class="info_item_email">
+		<dt class="info_item_t"><span class="item_tips">*</span>Email</dt>
+		<dd class="info_item_c"><input type="email"></dd>
+	</dl>
+	<dl class="info_item_color">
+		<dt class="info_item_t"><span class="item_tips">*</span>Color</dt>
+		<dd class="info_item_c"><input type="color"></dd>
+	</dl>
+	<div><input type="submit" value="Sign up"><input type="reset" value="Reset"></div>
+</form>
+
+</body>
+</html>

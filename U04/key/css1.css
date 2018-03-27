@@ -1,0 +1,49 @@
+body{
+	background-color: #ffc;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	text-align: center;
+	width: 90%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+form{
+		width: 80%;
+		border-radius:15px;
+		margin: auto;
+		background-color: white;
+		border-right: 5px inset #ddd; 
+        border-bottom: 5px inset #ddd;
+	}
+hr{
+		width: 90%;
+		margin: auto;
+		color: #ddd;
+		margin-bottom: 20px;
+	}
+dl{
+	width: 90%;
+	margin-top: 10px;
+	margin: auto;
+}	
+dt{
+	width: 20%;
+	text-align: right;
+}
+dd{
+	width: 70%;
+	position: relative;
+	left: 18%;
+	top: -20px;
+}
+span{
+	color: red;
+}
+div{
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
