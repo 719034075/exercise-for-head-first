@@ -16,3 +16,7 @@ some exercises for Head First Html and CSS
    + EX01
 6. U06
    + EX01
+7. U07
+   + EX01
+8. U08
+   + EX01

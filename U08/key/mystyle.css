@@ -1,0 +1,182 @@
+body{
+	font-size: 12px;
+	line-height: 1.8em;
+	color: #5f5f5f;
+}
+ul li{
+	list-style: none;
+}
+.logo>h1{
+	color: #3a90ca;
+	font-size: 30px;
+	line-height: 1.2em;
+	padding-top: 30px;
+	margin: 0;
+}
+.menu_nav{
+	float: right;
+	margin-top: -7px;
+}
+
+.menu_nav ul{
+	padding: 0;
+	background: url("images/menu.gif") repeat-x;
+	height: 45px;
+	width:400px;
+}
+.header ul li{
+	display: table-cell;
+	height:45px;
+	width:80px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.menu_nav li > a{
+	color: #5f5f5f;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+/*导航链接悬停、当前链接的颜色为#fff、 背景色为#3a90c9*/
+.menu_nav li:hover > a, .menu_nav .active > a{
+	color: #fff;
+	background-color: #3a90c9;
+	display: table-cell;
+	width:80px;
+	height:45px;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+  
+  
+  .dropdown-content
+  {
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a
+  {
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+  .dropdown:hover .dropdown-content{
+  	display:block;
+  }
+
+/*h1标题颜色为#3a90c9、字体大为30px，行高1.2em*/
+h1 a{
+	color: #3a90c9;
+	font-size: 30px;
+	line-height: 1.2em;
+}
+
+/*p字体大小为12px、行高1.8em*/
+p{
+	font-size: 12px;
+	line-height: 1.8em;
+}
+
+/*h2颜色为#323a3f*/
+h2{
+	color: #323a3f;
+}
+
+/*h2内部span颜色为#3a90ca*/
+h2 span{
+	color: #3a90ca;
+}
+
+.header{
+	background: url("images/header_bg.gif") repeat-x;
+}
+.header_resize{
+	width: 930px;
+	margin: auto;
+}
+.header .header_resize h1 a{
+	text-decoration: none;
+}
+
+.content_resize{
+	width: 930px;
+	margin: auto;
+}
+
+/*主体内容左边区域宽度为630px*/
+.mainbar{
+	width: 630px;
+	float: left;
+}
+
+.mainbar a{
+	color: #3a90ca;
+}
+/*主体内容右边区域宽度为236px*/
+.sidebar{
+	width: 236px;
+	float: right;
+}
+.clr{
+	clear: both;
+}
+
+/*左边内容区图片边框宽度1px、实线（solid）、颜色为#b7b7b7、内边距4px*/
+.article img{
+	border: 1px solid #b7b7b7;
+	padding: 4px;
+}
+.sidebar ul{
+	padding-left:0;
+}
+.sidebar li{
+	color: #959595;
+	margin-bottom: 4px;
+}
+
+.sidebar .gadget li a{
+	color: #5f5f5f;
+	text-decoration: none;
+}
+.sidebar .gadget li a:hover{
+	color: #3a90ca;
+	font-weight: bold;
+}
+
+.footer_resize{
+	width: 930px;
+	margin: auto;
+}
+
+.footer .footer_resize .lf{
+	float: right;
+}
+
+.footer .footer_resize .fmenu{
+	float: left;
+	padding-left: 8px;
+}
+.footer .footer_resize .fmenu li{
+	display: inline-block;
+	margin: 8px;
+}
+.footer .footer_resize .fmenu li a{
+	text-decoration: none;
+	color: #5f5f5f;
+}
+.footer .footer_resize .fmenu .active a{
+	color: #3a90ca;
+}
+.footer .footer_resize .fmenu a:hover{
+	color: #3a90ca;
+}
+
